@@ -1,6 +1,6 @@
 # Sintering-process_Causility-and-Prediction
   This repository contains the project related to the sintering process in iron-making industry, in which the author conducts causility analysis and state variables prediction.
-# Denoising and normalization
+## Denoising and normalization
   3sigma cut off and moving window average method are used in denoising and normalization, which contain in ***Pretreat.m***. 
 ## Causality
   This project uses two kind of causality test: Autocorrelation Function(ACF) and Convergent cross-mapping(CCM), which correspond to ***acf.py*** and ***ccm_v8.m*** and ***ccm_v9***, respectivly.
