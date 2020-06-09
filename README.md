@@ -3,7 +3,7 @@
 ## Denoising and normalization
   3sigma cut off and moving window average method are used in denoising and normalization, which contain in ***Pretreat.m***. 
 ## Causality
-  This project uses two kind of causality test: Autocorrelation Function(ACF) and Convergent cross-mapping(CCM), which correspond to ***acf.py*** and ***ccm_v8.m*** and ***ccm_v9***, respectivly.
+  This project uses two kind of causality test: Autocorrelation Function(ACF) and Convergent cross-mapping(CCM), which correspond to ***acf.py*** and ***ccm_v8.m*** and ***ccm_v9.m***, respectivly.
 ## ANN Prediction
   Commoly used ANN with fully connected layers are adopted in this project. However, due to difference in hidden layers and input dimension, four versions of BPNN are developed. You can find them as ***BPNN_v1.py***,***BPNN_v2.py***,***BPNN_v3.py*** and ***BPNN_v4.py***.
 ## KDE threshold
